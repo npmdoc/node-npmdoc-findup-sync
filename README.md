@@ -1,9 +1,14 @@
-# api documentation for  [findup-sync (v0.4.3)](https://github.com/cowboy/node-findup-sync)  [![npm package](https://img.shields.io/npm/v/npmdoc-findup-sync.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-findup-sync) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-findup-sync.svg)](https://travis-ci.org/npmdoc/node-npmdoc-findup-sync)
+# npmdoc-findup-sync
+
+#### api documentation for  [findup-sync (v1.0.0)](https://github.com/cowboy/node-findup-sync)  [![npm package](https://img.shields.io/npm/v/npmdoc-findup-sync.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-findup-sync) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-findup-sync.svg)](https://travis-ci.org/npmdoc/node-npmdoc-findup-sync)
+
 #### Find the first file matching a given pattern in the current directory or the nearest ancestor directory.
 
-[![NPM](https://nodei.co/npm/findup-sync.png?downloads=true)](https://www.npmjs.com/package/findup-sync)
+[![NPM](https://nodei.co/npm/findup-sync.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/findup-sync)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-findup-sync/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-findup-sync_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-findup-sync/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-findup-sync/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-findup-sync/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-findup-sync/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-findup-sync/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-findup-sync/build/screenCapture.npmPackageListing.svg)
 
@@ -43,8 +48,8 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "40043929e7bc60adf0b7f4827c4c6e75a0deca12",
-        "tarball": "https://registry.npmjs.org/findup-sync/-/findup-sync-0.4.3.tgz"
+        "shasum": "6f7e4b57b6ee3a4037b4414eaedea3f58f71e0ec",
+        "tarball": "https://registry.npmjs.org/findup-sync/-/findup-sync-1.0.0.tgz"
     },
     "engines": {
         "node": ">= 0.8.0"
@@ -52,7 +57,7 @@
     "files": [
         "index.js"
     ],
-    "gitHead": "701fd1044e1e26936aa066a35281ffdfb0b37d43",
+    "gitHead": "c19ee365c78410950e5acff7608bd62290d2fb89",
     "homepage": "https://github.com/cowboy/node-findup-sync",
     "keywords": [
         "file",
@@ -69,25 +74,20 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "cowboy",
-            "email": "cowboy@rj3.net"
+            "name": "cowboy"
         },
         {
-            "name": "jonschlinkert",
-            "email": "github@sellside.com"
+            "name": "jonschlinkert"
         },
         {
-            "name": "phated",
-            "email": "blaine.bublitz@gmail.com"
+            "name": "phated"
         },
         {
-            "name": "tkellen",
-            "email": "tyler@sleekcode.net"
+            "name": "tkellen"
         }
     ],
     "name": "findup-sync",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/cowboy/node-findup-sync.git"
@@ -95,19 +95,9 @@
     "scripts": {
         "test": "grunt && mocha"
     },
-    "version": "0.4.3"
+    "version": "1.0.0"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module findup-sync](#apidoc.module.findup-sync)
-
-
-
-# <a name="apidoc.module.findup-sync"></a>[module findup-sync](#apidoc.module.findup-sync)
 
 
 
