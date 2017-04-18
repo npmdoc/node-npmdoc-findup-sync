@@ -51,7 +51,7 @@
 
         href="https://github.com/cowboy/node-findup-sync"
 
-    >findup-sync (v0.4.3)</a>
+    >findup-sync (v1.0.0)</a>
 </h1>
 <h4>Find the first file matching a given pattern in the current directory or the nearest ancestor directory.</h4>
 <div class="apidocSectionDiv"><a
@@ -61,12 +61,47 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.findup-sync">module findup-sync</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.findup-sync.findup-sync">
+            function <span class="apidocSignatureSpan"></span>findup-sync
+            <span class="apidocSignatureSpan">(patterns, options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.findup-sync" id="apidoc.module.findup-sync">module findup-sync</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.findup-sync.findup-sync" id="apidoc.element.findup-sync.findup-sync">
+        function <span class="apidocSignatureSpan"></span>findup-sync
+        <span class="apidocSignatureSpan">(patterns, options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">findup-sync = function (patterns, options) {
+  options = options || {};
+  var cwd = path.resolve(resolveDir(options.cwd || &#x27;&#x27;));
+
+  if (typeof patterns === &#x27;string&#x27;) {
+    return lookup(cwd, [patterns], options);
+  }
+
+  if (!Array.isArray(patterns)) {
+    throw new TypeError(&#x27;findup-sync expects a string or array as the first argument.&#x27;);
+  }
+
+  return lookup(cwd, patterns, options);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
