@@ -1,6 +1,6 @@
 # npmdoc-findup-sync
 
-#### api documentation for  [findup-sync (v1.0.0)](https://github.com/cowboy/node-findup-sync)  [![npm package](https://img.shields.io/npm/v/npmdoc-findup-sync.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-findup-sync) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-findup-sync.svg)](https://travis-ci.org/npmdoc/node-npmdoc-findup-sync)
+#### basic api documentation for  [findup-sync (v1.0.0)](https://github.com/cowboy/node-findup-sync)  [![npm package](https://img.shields.io/npm/v/npmdoc-findup-sync.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-findup-sync) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-findup-sync.svg)](https://travis-ci.org/npmdoc/node-npmdoc-findup-sync)
 
 #### Find the first file matching a given pattern in the current directory or the nearest ancestor directory.
 
@@ -95,7 +95,8 @@
     "scripts": {
         "test": "grunt && mocha"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
